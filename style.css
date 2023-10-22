@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #333;
+}
+
+
+
+ul {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0px
+    }
+.navbar-items {
+    color: gray;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    justify-content: space-around;
+}
+button:hover {
+    color: black;   
+    border-bottom: 2px solid #5c5c5c;
+}
+.search {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(26, 128, 217);
+    color: white;
+    
+}
+
+.container {
+    /* padding: 10px 5%; */
+    
+}
+
+.icons {
+    height: 25px;
+}
+/* p:hover { */
+
+    /* border-radius: 1rem; */
+    /* font-weight: bold; */ 
+/* } */
+.anywhere {
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    
+}
+
+.anyweek {
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.addguest {
+    padding-left: 10px;
+}
+.nav2 {
+    padding-top: 20px;
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;  
+    padding-top: 20px;  
+
+}
+.item_con {
+    width: 340px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.picture {
+    height: 270px;
+    border-radius: 1.4rem;
+}
+
+h1 {
+    color: rgb(26, 128, 217);
+}
+
+  
+img.picture {
+  transition: 0.3s;
+}
+  
+.picture:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer1 {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.f_con {
+    border-top: solid 1px;
+    width: 372px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.active {
+    border-bottom: 2px solid black;
+}
+
+button {
+    border: 0px;
+    background-color: white;
+
+}

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header container">
+        <!-- <div class="container"> -->
+            <h1 class="name">Travel</h1>
+
+            <div class="search">
+                <ul>
+                    <li class="anywhere">
+                        <p>Anywhere</p> 
+                    </li>
+                    <li class="anyweek">
+                        <p>Any week</p>
+                    </li>
+                    <li class="addguest">
+                        <p>Add guests</p>
+                    </li>
+                </ul>
+
+            </div>
+            
+            <div>
+                <a href="/login.html">Log in</a>
+            </div>
+        <!-- </div> -->
+
+    </div>
+    <nav class="container ">
+            <ul class="nav2 ">
+                <li onclick="handleClickItem(0)" >
+                    <img class="icons" src="./img/icons8-island-on-water-50.png" alt="">
+                    <button href="#" class="navbar-items">Islands</button>
+                </li>
+                <li onclick="handleClickItem(1)">
+                    <img class="icons" src="./img/icons8-4-star-hotel-50.png" alt="">
+                    <button href="#" class="navbar-items">Hotels</button>
+                </li>
+                <li onclick="handleClickItem(2)">
+                    <img class="icons" src="./img/icons8-chicago-50.png" alt="">
+                    <button href="#" class="navbar-items">Iconic cities</button>
+                </li>
+                <li onclick="handleClickItem(3)">
+                    <img class="icons" src="./img/icons8-beach-50.png" alt="">
+                    <button href="#" class="navbar-items">Beaches</button>
+                </li>
+                <li onclick="handleClickItem(4)">
+                    <img class="icons" src="./img/icons8-alps-50.png" alt="">
+                    <button href="#" class="navbar-items">Nature</button>
+                </li>
+                <li onclick="handleClickItem(5)">
+                    <img class="icons" src="./img/icons8-forest-50.png" alt="">
+                    <button href="#" class="navbar-items">Tropical</button>
+                </li>
+                <li onclick="handleClickItem(6)">
+                    <img class="icons" src="./img/icons8-horseback-riding-50.png" alt="">
+                    <button href="#" class="navbar-items">Farms</button>
+                </li>
+            </ul>
+    </nav>
+
+
+
+    <div id="Island" class="items container tabcontent">
+        <div class="item_con">
+            <img class="picture" src="./img/nature1.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 1</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature2.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 2</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature3.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 3</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature4.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 4</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature5.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 5</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature6.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 6</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature3.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 7</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>        
+        <div class="item_con">
+            <img class="picture" src="./img/nature1.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 8</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>        
+        <div class="item_con">
+            <img class="picture" src="./img/nature4.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 9</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div> 
+        <div class="item_con">
+            <img class="picture" src="./img/nature3.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 10</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature5.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 11</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+            </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature1.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 12</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature3.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 13</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature2.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 14</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+        </div>
+        <div class="item_con">
+            <img class="picture" src="./img/nature5.jpg" alt="" >
+            <p class="fw-bold mt-2">nature 15</p>
+            <p>10 hectares</p>
+            <p class="fw-bold">$500 night</p>
+    </div>
+
+
+
+    <div class="footer1">
+        <div class="f_con">
+            <p class="fw-bold">Hỗ trợ</p>
+            <p>Trung tâm trợ giúp</p>
+            <p>Cover</p>
+            <p>Chống phân biệt đối xử</p>
+            <p>Hỗ trợ người khuyết tật</p>
+            <p>Các tùy chọn hủy</p>
+            <p>Báo cáo lo ngại của khu dân cư</p>
+        </div>
+        <div class="f_con">
+            <p class="fw-bold">Đón tiếp khách</p>
+            <p>Cho thuê nhà trên Travel</p>
+            <p>AirCover cho Chủ nhà</p>
+            <p>Tài nguyên về đón tiếp khách</p>
+            <p>Diễn đàn cộng đồng</p>
+            <p>Đón tiếp khách có trách nhiệm</p>
+        </div>
+        <div class="f_con">
+            <p class="fw-bold">Travel</p>
+            <p>Trang tin tức</p>
+            <p>Tính năng mới</p>
+            <p>Cơ hội nghề nghiệp</p>
+            <p>Nhà đầu tư</p>
+            <p>Chỗ ở khẩn cấp</p>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
